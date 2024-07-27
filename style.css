@@ -1,0 +1,95 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    line-height: 25px;
+    font-size: 0.9em;
+    font-family: "Lato", "Noto Sans JP", Helvetica, "游ゴシック", "Yu Gothic", YuGothic, HiraKakuProN-W3, "メイリオ", Meiryo, sans-serif;
+}
+
+.smalltext {
+    font-size: 0.8em;
+}
+
+
+/* ----------- card ----------------------- */
+
+.card-img,
+.card-img-top {
+    max-height: 200px;
+    object-fit: scale-down;
+    padding: 25px;
+}
+
+
+/* ----------- badge ----------------------- */
+
+.badge-cstm {
+    padding: 5px 10px;
+    height: 35px;
+    display: inline;
+    margin: 5px;
+}
+
+.subbadge-cstm {
+    margin-left: 10px;
+    display: inline;
+    font-weight: 100;
+    border-radius: 0.1rem;
+    padding: 0.1em 0.6em;
+}
+
+
+/* ----------- h ----------------------- */
+
+h2 {
+    border-bottom: 2px solid #333;
+    color: #333;
+    font-size: 16px;
+    margin: 30px auto;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+
+h3 {
+    border-bottom: 2px dashed #333;
+    color: #333;
+    font-size: 14px;
+    margin: 30px auto;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+
+
+/* ----------- nav ----------------------- */
+
+.navbar a.nav-link:hover {
+    color: #333;
+    border-bottom: 2px solid #333;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.card-title {
+    position: relative;
+    display: inline-block;
+}
+
+.card-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
